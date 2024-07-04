@@ -13,7 +13,7 @@ Segue abaixo o diagrama de atividades da arquitetura proposta nesse case.
 
 ![Infraestrutura Diagrama](./docs/DesafioPB.jpg)
 
-## Estrura do Projeto
+## Estrutura do Projeto
 
 Além da proposta, foi implementada uma prova de conceito com o objetivo de validar o funcionamento e identificar possíveis melhorias. Tal implementação foi feita utilizando algumas práticas de organização de projetos do mercado:
 
@@ -29,7 +29,7 @@ A solution foi organizada em 5 projetos, 3 deles são os dos microserviços, 1 d
 
 ![Estrutura de Pastas](./docs/estrutura-pastas.png)
 
-## Execução local com VS/VS Code e Docker
+## Execução local com Docker
 
 Para executar o projeto localmente você irá precisar:
 
