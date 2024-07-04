@@ -1,0 +1,6 @@
+@DesafioPB.PropostaCredito_HostAddress = http://localhost:5042
+
+GET {{DesafioPB.PropostaCredito_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
