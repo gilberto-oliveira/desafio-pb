@@ -60,7 +60,7 @@ public static class EndpointsV1
     var (success, id) = await mediator.Send(command);
 
     if (!success)
-      return TypedResults.BadRequest("Nenhum cliente foi cadastrado, tente novamente mais tarde!");
+      return TypedResults.BadRequest("Cliente inválido, tente novamente!");
 
     return TypedResults.Created($"/api/cliente/{id}");
   }
